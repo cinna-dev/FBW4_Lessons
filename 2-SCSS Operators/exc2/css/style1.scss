@@ -1,0 +1,9 @@
+@import 'setting';
+article{
+    @for $var from 1 to 101 {
+        #{">div:nth-child("$var")::after"}{
+            content:""+$var;         // ''+ transfer var to string
+            font-size: 30px;
+        }
+    }
+}

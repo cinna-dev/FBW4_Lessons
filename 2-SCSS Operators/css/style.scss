@@ -1,0 +1,31 @@
+$size: 500px;
+$div1Size: 200px;
+
+.container {
+    width: $size; // $size  / 2 + 3;
+    //height: 10 % 3px;
+    .subdiv{
+        float: left;
+        width: $size - $div1Size;
+    }
+    
+    @if $size==50px{   // condition - if true
+        .subdiv2{
+        float: left;
+        width: $div1Size;
+        }
+    }@else{
+        .subdiv2{
+            float: left;
+            width: $div1Size;
+            }
+    }
+
+    @for $var from 1 to 11 {                 // $var will have the value of "from" 
+        #{">p:nth-child("$var")"}{         // #{" selector "} // selector is static text
+            background-color: rgb(10*$var, 10*$var, 10*$var);
+            height: 20px * $var;
+        }
+        
+    }
+}

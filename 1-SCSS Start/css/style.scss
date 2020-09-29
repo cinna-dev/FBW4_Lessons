@@ -1,0 +1,26 @@
+@import 'setting'; //will import the _setting.scss file
+
+$firstColor : rgb(104, 40, 40);
+$secondColor : rgba(182, 168, 41, 0.678);
+
+
+.container {
+    font-size: 18px;
+    height: 20px;
+    background-color: $firstColor;
+    h3{
+        color: $firstColor;
+    }
+    h1{
+        color: $secondColor;
+    }
+    &>p{
+        color: $secondColor;
+        span{
+            color: $secondColor;
+        }
+    }
+    &:hover{ //& to add to the class
+    background-color: blue;
+    }
+}

@@ -1,0 +1,12 @@
+// Ahmad's version
+@import 'setting';
+table{
+    width: 100%;
+    height: 100vh;
+    @for $bla from 1 to 11 {
+        #{"tr:nth-child("$bla")"}{
+            //background-color: darken(white, $bla*10%);
+            background-color: lighten(black, $bla*10%);
+        }
+    }
+}

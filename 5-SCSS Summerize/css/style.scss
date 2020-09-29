@@ -1,0 +1,21 @@
+%borderSyle{
+    border: 2px solid blue;
+    box-shadow: 5px 5px 10px red;
+}
+.container{
+    font-size: 50px;
+    @extend %borderSyle;
+
+    p{
+        letter-spacing: 10px;
+    }
+    >h3{
+        text-decoration: underline;
+        &:hover{      // & = attatches the selector directly to its parent 
+            text-shadow: 0px 5px 10px black;
+        }
+    }
+}
+.container2{
+    @extend %borderSyle;
+}

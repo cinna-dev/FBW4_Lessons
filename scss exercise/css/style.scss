@@ -1,0 +1,72 @@
+@mixin commonProperties ($height, $width , $bgc){
+    height: $height;
+    width: $width;
+    background-color:$bgc;}
+@import 'setting';
+.nav{
+    list-style-type: none;
+    @include commonProperties(50px, none , aqua );
+    a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase; 
+    color: white;
+    margin: 10px;
+    display: block;
+    text-align: center;}
+   li{
+        @include commonProperties(40px, none, black );
+        margin-right: 10px;
+        float: left;
+        margin-top: 5px;
+        box-shadow: 1px 1px 5px black;
+        min-width: 150px;
+        &:first-child{
+            margin-left:10px;}
+        &:last-child{
+            float: right;
+        &:hover{
+            box-shadow: 1px 1px 10px black;
+            a{font-size: 22px;}}}}}
+#togglecheckbox{
+    display: none;
+    &:checked ~ .nav{
+        height: 230px;}
+    :checked ~ .togglebox label span:nth-child(2){
+        display: none;}
+    :checked ~ .togglebox label span:nth-child(1){
+        transform: rotate(45deg);
+        top:25px;}
+    :checked ~ .togglebox label span:nth-child(3){
+        transform: rotate(-45deg);
+        top:25px;}}
+.togglebox{ 
+    label{
+    @include commonProperties(50px,50px ,rgba(255, 166, 0, 0.493));
+    border-radius: 5px;
+    position: relative;
+    display: none;
+    margin: 10px;
+    span{
+        @include commonProperties(1px,40px ,black);
+        left:5px;
+        position: absolute;
+        transition: transform 1s;
+        @for $var from 1 to 4 {
+            #{'&:nth-child('$var')'}{
+            top: -5px + 15px *$var ;}}}}}
+@media (max-width: 821px){
+    .nav{ 
+        height: 0;
+        overflow: hidden;
+        transition: height 1s cubic-bezier(0.23, 1, 0.320, 1) ;
+        li{
+        width: 100%;
+        &:first-child{
+            margin-left:0; }
+        &:last-child{
+            float: left;}}}
+    .togglebox {
+        label{
+        display: block;}}}

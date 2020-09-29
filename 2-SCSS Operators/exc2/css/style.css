@@ -1,0 +1,511 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+article div:nth-child(1):before {
+  content: "1";
+  font-size: 30px;
+}
+
+article div:nth-child(2):before {
+  content: "2";
+  font-size: 30px;
+}
+
+article div:nth-child(3):before {
+  content: "3";
+  font-size: 30px;
+}
+
+article div:nth-child(4):before {
+  content: "4";
+  font-size: 30px;
+}
+
+article div:nth-child(5):before {
+  content: "5";
+  font-size: 30px;
+}
+
+article div:nth-child(6):before {
+  content: "6";
+  font-size: 30px;
+}
+
+article div:nth-child(7):before {
+  content: "7";
+  font-size: 30px;
+}
+
+article div:nth-child(8):before {
+  content: "8";
+  font-size: 30px;
+}
+
+article div:nth-child(9):before {
+  content: "9";
+  font-size: 30px;
+}
+
+article div:nth-child(10):before {
+  content: "10";
+  font-size: 30px;
+}
+
+article div:nth-child(11):before {
+  content: "11";
+  font-size: 30px;
+}
+
+article div:nth-child(12):before {
+  content: "12";
+  font-size: 30px;
+}
+
+article div:nth-child(13):before {
+  content: "13";
+  font-size: 30px;
+}
+
+article div:nth-child(14):before {
+  content: "14";
+  font-size: 30px;
+}
+
+article div:nth-child(15):before {
+  content: "15";
+  font-size: 30px;
+}
+
+article div:nth-child(16):before {
+  content: "16";
+  font-size: 30px;
+}
+
+article div:nth-child(17):before {
+  content: "17";
+  font-size: 30px;
+}
+
+article div:nth-child(18):before {
+  content: "18";
+  font-size: 30px;
+}
+
+article div:nth-child(19):before {
+  content: "19";
+  font-size: 30px;
+}
+
+article div:nth-child(20):before {
+  content: "20";
+  font-size: 30px;
+}
+
+article div:nth-child(21):before {
+  content: "21";
+  font-size: 30px;
+}
+
+article div:nth-child(22):before {
+  content: "22";
+  font-size: 30px;
+}
+
+article div:nth-child(23):before {
+  content: "23";
+  font-size: 30px;
+}
+
+article div:nth-child(24):before {
+  content: "24";
+  font-size: 30px;
+}
+
+article div:nth-child(25):before {
+  content: "25";
+  font-size: 30px;
+}
+
+article div:nth-child(26):before {
+  content: "26";
+  font-size: 30px;
+}
+
+article div:nth-child(27):before {
+  content: "27";
+  font-size: 30px;
+}
+
+article div:nth-child(28):before {
+  content: "28";
+  font-size: 30px;
+}
+
+article div:nth-child(29):before {
+  content: "29";
+  font-size: 30px;
+}
+
+article div:nth-child(30):before {
+  content: "30";
+  font-size: 30px;
+}
+
+article div:nth-child(31):before {
+  content: "31";
+  font-size: 30px;
+}
+
+article div:nth-child(32):before {
+  content: "32";
+  font-size: 30px;
+}
+
+article div:nth-child(33):before {
+  content: "33";
+  font-size: 30px;
+}
+
+article div:nth-child(34):before {
+  content: "34";
+  font-size: 30px;
+}
+
+article div:nth-child(35):before {
+  content: "35";
+  font-size: 30px;
+}
+
+article div:nth-child(36):before {
+  content: "36";
+  font-size: 30px;
+}
+
+article div:nth-child(37):before {
+  content: "37";
+  font-size: 30px;
+}
+
+article div:nth-child(38):before {
+  content: "38";
+  font-size: 30px;
+}
+
+article div:nth-child(39):before {
+  content: "39";
+  font-size: 30px;
+}
+
+article div:nth-child(40):before {
+  content: "40";
+  font-size: 30px;
+}
+
+article div:nth-child(41):before {
+  content: "41";
+  font-size: 30px;
+}
+
+article div:nth-child(42):before {
+  content: "42";
+  font-size: 30px;
+}
+
+article div:nth-child(43):before {
+  content: "43";
+  font-size: 30px;
+}
+
+article div:nth-child(44):before {
+  content: "44";
+  font-size: 30px;
+}
+
+article div:nth-child(45):before {
+  content: "45";
+  font-size: 30px;
+}
+
+article div:nth-child(46):before {
+  content: "46";
+  font-size: 30px;
+}
+
+article div:nth-child(47):before {
+  content: "47";
+  font-size: 30px;
+}
+
+article div:nth-child(48):before {
+  content: "48";
+  font-size: 30px;
+}
+
+article div:nth-child(49):before {
+  content: "49";
+  font-size: 30px;
+}
+
+article div:nth-child(50):before {
+  content: "50";
+  font-size: 30px;
+}
+
+article div:nth-child(51):before {
+  content: "51";
+  font-size: 30px;
+}
+
+article div:nth-child(52):before {
+  content: "52";
+  font-size: 30px;
+}
+
+article div:nth-child(53):before {
+  content: "53";
+  font-size: 30px;
+}
+
+article div:nth-child(54):before {
+  content: "54";
+  font-size: 30px;
+}
+
+article div:nth-child(55):before {
+  content: "55";
+  font-size: 30px;
+}
+
+article div:nth-child(56):before {
+  content: "56";
+  font-size: 30px;
+}
+
+article div:nth-child(57):before {
+  content: "57";
+  font-size: 30px;
+}
+
+article div:nth-child(58):before {
+  content: "58";
+  font-size: 30px;
+}
+
+article div:nth-child(59):before {
+  content: "59";
+  font-size: 30px;
+}
+
+article div:nth-child(60):before {
+  content: "60";
+  font-size: 30px;
+}
+
+article div:nth-child(61):before {
+  content: "61";
+  font-size: 30px;
+}
+
+article div:nth-child(62):before {
+  content: "62";
+  font-size: 30px;
+}
+
+article div:nth-child(63):before {
+  content: "63";
+  font-size: 30px;
+}
+
+article div:nth-child(64):before {
+  content: "64";
+  font-size: 30px;
+}
+
+article div:nth-child(65):before {
+  content: "65";
+  font-size: 30px;
+}
+
+article div:nth-child(66):before {
+  content: "66";
+  font-size: 30px;
+}
+
+article div:nth-child(67):before {
+  content: "67";
+  font-size: 30px;
+}
+
+article div:nth-child(68):before {
+  content: "68";
+  font-size: 30px;
+}
+
+article div:nth-child(69):before {
+  content: "69";
+  font-size: 30px;
+}
+
+article div:nth-child(70):before {
+  content: "70";
+  font-size: 30px;
+}
+
+article div:nth-child(71):before {
+  content: "71";
+  font-size: 30px;
+}
+
+article div:nth-child(72):before {
+  content: "72";
+  font-size: 30px;
+}
+
+article div:nth-child(73):before {
+  content: "73";
+  font-size: 30px;
+}
+
+article div:nth-child(74):before {
+  content: "74";
+  font-size: 30px;
+}
+
+article div:nth-child(75):before {
+  content: "75";
+  font-size: 30px;
+}
+
+article div:nth-child(76):before {
+  content: "76";
+  font-size: 30px;
+}
+
+article div:nth-child(77):before {
+  content: "77";
+  font-size: 30px;
+}
+
+article div:nth-child(78):before {
+  content: "78";
+  font-size: 30px;
+}
+
+article div:nth-child(79):before {
+  content: "79";
+  font-size: 30px;
+}
+
+article div:nth-child(80):before {
+  content: "80";
+  font-size: 30px;
+}
+
+article div:nth-child(81):before {
+  content: "81";
+  font-size: 30px;
+}
+
+article div:nth-child(82):before {
+  content: "82";
+  font-size: 30px;
+}
+
+article div:nth-child(83):before {
+  content: "83";
+  font-size: 30px;
+}
+
+article div:nth-child(84):before {
+  content: "84";
+  font-size: 30px;
+}
+
+article div:nth-child(85):before {
+  content: "85";
+  font-size: 30px;
+}
+
+article div:nth-child(86):before {
+  content: "86";
+  font-size: 30px;
+}
+
+article div:nth-child(87):before {
+  content: "87";
+  font-size: 30px;
+}
+
+article div:nth-child(88):before {
+  content: "88";
+  font-size: 30px;
+}
+
+article div:nth-child(89):before {
+  content: "89";
+  font-size: 30px;
+}
+
+article div:nth-child(90):before {
+  content: "90";
+  font-size: 30px;
+}
+
+article div:nth-child(91):before {
+  content: "91";
+  font-size: 30px;
+}
+
+article div:nth-child(92):before {
+  content: "92";
+  font-size: 30px;
+}
+
+article div:nth-child(93):before {
+  content: "93";
+  font-size: 30px;
+}
+
+article div:nth-child(94):before {
+  content: "94";
+  font-size: 30px;
+}
+
+article div:nth-child(95):before {
+  content: "95";
+  font-size: 30px;
+}
+
+article div:nth-child(96):before {
+  content: "96";
+  font-size: 30px;
+}
+
+article div:nth-child(97):before {
+  content: "97";
+  font-size: 30px;
+}
+
+article div:nth-child(98):before {
+  content: "98";
+  font-size: 30px;
+}
+
+article div:nth-child(99):before {
+  content: "99";
+  font-size: 30px;
+}
+
+article div:nth-child(100):before {
+  content: "100";
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
